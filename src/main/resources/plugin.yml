@@ -6,3 +6,6 @@ author: Neapovil
 website: https://github.com/Neapovil/oldpvp
 depend:
   - CommandAPI
+permissions:
+  oldpvp.command:
+    default: op

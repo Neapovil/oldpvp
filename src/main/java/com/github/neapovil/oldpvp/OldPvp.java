@@ -55,13 +55,13 @@ public final class OldPvp extends JavaPlugin implements Listener
     }
 
     @EventHandler
-    public void playerJoin(PlayerJoinEvent event)
+    private void playerJoin(PlayerJoinEvent event)
     {
         this.updateAttackSpeed(event.getPlayer());
     }
 
     @EventHandler
-    public void playerQuit(PlayerQuitEvent event)
+    private void playerQuit(PlayerQuitEvent event)
     {
         this.updateAttackSpeed(event.getPlayer());
     }
