@@ -1,0 +1,8 @@
+name: OldPvP
+main: com.github.neapovil.oldpvp.OldPvp
+version: 1.0.0
+api-version: 1.13
+author: Neapovil
+website: https://github.com/Neapovil/oldpvp
+depend:
+  - CommandAPI
