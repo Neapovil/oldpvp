@@ -27,7 +27,7 @@ public final class OldPvp extends JavaPlugin implements Listener
         new CommandAPICommand("oldpvp")
                 .withPermission("oldpvp.command")
                 .withArguments(new MultiLiteralArgument("on", "off"))
-                .executesPlayer((sender, args) -> {
+                .executes((sender, args) -> {
                     if (((String) args[0]).equals("on"))
                     {
                         enabled = true;
